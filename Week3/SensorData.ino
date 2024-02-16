@@ -1,4 +1,3 @@
-
 void setup(){
   pinMode(10, INPUT);
   Serial.begin(9600);
