@@ -97,7 +97,7 @@ void ReadDataFromBlock(int blockNum, byte readBlockData[])
   }
   else
   {
-    Serial.println("Authentication success");
+    Serial.println("Authentication failed");
   }
   status = mfrc522.MIFARE_Read(blockNum, readBlockData, &bufferLen);
   if (status != MFRC522::STATUS_OK)
