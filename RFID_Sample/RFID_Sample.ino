@@ -6,8 +6,8 @@ MFRC522 mfrc522(SS_PIN, RST_PIN);
 MFRC522::MIFARE_Key key;          
 int blockNum = 2;  
 byte blockData [16] = {"Electronics-Hub-"};
-byte bufferLen = 18;
-byte readBlockData[18];
+byte bufferLen = 12;
+byte readBlockData[12];
 MFRC522::StatusCode status;
 void setup() 
 {
