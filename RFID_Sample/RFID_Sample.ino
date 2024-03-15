@@ -32,7 +32,7 @@ void loop()
    return;
   }
   Serial.print("\n");
-  Serial.println("**Card Detected**");
+  Serial.println("**Card Invalid**");
    Serial.print(F("Card UID:"));
   for (byte i = 0; i < mfrc522.uid.size; i++)
   {
